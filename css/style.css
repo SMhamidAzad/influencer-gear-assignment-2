@@ -264,7 +264,7 @@ fieldset{
     }
     .delivary-order{
         margin-left: -20px;
-        margin-bottom: 450px;
+        margin-bottom: 200px;
     }
     footer{
         position: absolute;
@@ -280,5 +280,8 @@ fieldset{
     }
     .products{
         grid-template-columns: repeat(2,1fr);
+    }
+    .delivary-order{
+        margin-bottom: 200px;
     }
 }
