@@ -247,7 +247,9 @@ fieldset{
 @media only screen and (max-width: 688px){
     .banner, .product{
         flex-direction: column;
-        width: 70%;
+    }
+    h1{
+        white-space: wrap;
     }
     .products, .banner{
         grid-template-columns: repeat(1,1fr);
@@ -256,7 +258,7 @@ fieldset{
         margin-left: 50px;
     }
     .banner{
-        margin-left: -20px;
+        margin-left: -40px;
         margin-bottom: 200px;
     }
     .delivary-order{
