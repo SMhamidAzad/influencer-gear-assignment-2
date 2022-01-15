@@ -245,45 +245,32 @@ fieldset{
 
 /* responsibe part are started here */
 @media only screen and (max-width: 688px){
-    .banner, .product{
+    .container-top{
+        width: 100%;
         flex-direction: column;
     }
-    h1{
-        white-space: wrap;
+    .top-part-left h1{
+        font-size: 28px;
     }
-    .products, .banner{
+     .top-part-left{
+         width: 50%;
+         margin-left: -80px;
+     }
+     .top-part-right{
+         width: 70%;
+         margin-left: -80px;
+     }
+    .top-part{
         grid-template-columns: repeat(1,1fr);
     }
-    .product{
-        margin-left: 50px;
+    .products{
+        grid-template-columns: repeat(1,1fr);
     }
-    .banner{
-        margin-left: -40px;
-        margin-bottom: 200px;
-    }
-    .delivary-order{
-        margin-left: -20px;
-        margin-bottom: 450px;
-    }
-    footer{
-        position: absolute;
-        width: 100%;
-    }
+    
 }
 
 
 /* tablet devices */
 @media only screen and (min-width: 688px) and (max-width: 992px){
-  .products{
-      grid-template-columns: repeat(2,1fr);
-  }
-  .banner{
-      grid-template-columns: repeat(1,1fr);
-  }
-  .delivary-order{
-      margin-bottom: 200px;
-  }
-  .footer{
-      position: absolute;
-  }
+  
 }
