@@ -86,7 +86,7 @@ body{
     color: gainsboro;
 }
 .see-option{
-    text-align: right;
+    text-align: right !important;
 }
 
 
@@ -112,3 +112,15 @@ footer p{
     margin-right: 16px;
 }
 
+
+/* order part it is */
+.order-form{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    
+}
+.confirm{
+    margin-left: 60px;
+    margin-right: 60px;
+}
