@@ -85,8 +85,10 @@ body{
 .fa-star.empty{
     color: gainsboro;
 }
-.see-option{
-    text-align: right !important;
+#see-option{
+    color: #E02C6D;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 
@@ -144,4 +146,38 @@ fieldset{
 }
 .delivery-img{
     margin-top: 80px;
+}
+
+
+
+/* responsibe part are started here */
+@media only screen and (max-width: 688px){
+    .banner, .product{
+        flex-direction: column;
+        width: 70%;
+    }
+    .products, .banner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .product{
+        margin-left: 50px;
+    }
+    .banner{
+        margin-left: -20px;
+        margin-bottom: 200px;
+    }
+    .delivary-order{
+        margin-left: -20px;
+        margin-bottom: 450px;
+    }
+    footer{
+        position: absolute;
+        width: 100%;
+    }
+}
+
+
+/* tablet devices */
+@media only screen and (min-width: 688px) and (max-width: 992px){
+  
 }
